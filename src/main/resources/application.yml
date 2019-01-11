@@ -4,7 +4,7 @@ server:
   port: 8769
 security.basic.enabled: false
 turbine:
-  aggregator:
+  aggregator: 
     clusterConfig: default   
   appConfig: eshop-one-service
   clusterNameExpression: new String("default")
